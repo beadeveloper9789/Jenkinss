@@ -13,7 +13,7 @@ pipeline {
                 steps {
                 git branch: 'master',
                 credentialsId: githubCredential,
-                url: 'https://github.com/ashish-mj/Jenkins.git'
+                url: 'https://github.com/beadeveloper9789/Jenkinss.git'
                 }
         }
         
