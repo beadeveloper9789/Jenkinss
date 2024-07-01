@@ -16,6 +16,11 @@ pipeline {
                 url: 'https://github.com/beadeveloper9789/Jenkinss.git'
                 }
         }
+         stage ('Test'){
+                steps {
+                sh "pytest testRoutes.py"
+                }
+        }
         
         
         
